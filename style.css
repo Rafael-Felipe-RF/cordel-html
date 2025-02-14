@@ -11,7 +11,7 @@
 html, body{
     background-color: darkgray;
     min-height: 100vh;
-    font-family: "Darumadrop One", serif;
+    font-family: "Darumadrop One", Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 1.5rem;
@@ -48,7 +48,7 @@ a{
 }
 
 section.imagem > p{
-    width: 35rem;
+    width: 800px;
     background-color: rgba(0, 0, 0, 0.205);
 }
 
