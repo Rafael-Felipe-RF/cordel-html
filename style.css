@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Darumadrop+One&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Playpen+Sans:wght@100..800&family=Playwrite+VN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,10 @@
 html, body{
     background-color: darkgray;
     min-height: 100vh;
+    font-family: "Darumadrop One", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
 }
 
 header{
@@ -42,7 +48,7 @@ a{
 }
 
 section.imagem > p{
-    width: 400px;
+    width: 35rem;
     background-color: rgba(0, 0, 0, 0.205);
 }
 
@@ -51,6 +57,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 1.7rem;
 }
 
 footer{
