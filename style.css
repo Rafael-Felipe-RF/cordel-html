@@ -51,6 +51,8 @@ a{
 .imagem{
     background-color: var(--cor-primaria);
     color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.685);
+    background-attachment: fixed;
 
 }
 
@@ -59,6 +61,7 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.514);
     padding: 10px;
     text-shadow: 1px 1px 0px black;
+    
 }
 
 section{
@@ -77,6 +80,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 1rem;
 }
 
 section > p{
