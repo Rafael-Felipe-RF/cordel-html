@@ -8,8 +8,14 @@
     padding: 0;
 }
 
+:root{
+    --cor-primaria: #6F98F7;
+    --cor-secundaria: #9E6FF7;
+    --cor-fundo: #C3C2F7;
+}
+
 html, body{
-    background-color: darkgray;
+    background-color: var(--cor-fundo);
     min-height: 100vh;
     font-family: "Darumadrop One", Arial, Helvetica, sans-serif;
     font-weight: 100;
@@ -18,7 +24,7 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-color: var(--cor-secundaria);
     color: white;
     text-align: center;    
 }
@@ -26,6 +32,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header > p{
@@ -42,14 +49,16 @@ a{
 }
 
 .imagem{
-    background-color: rgb(65, 62, 62) ;
+    background-color: var(--cor-primaria);
     color:white;
 
 }
 
 section.imagem > p{
-    width: 800px;
-    background-color: rgba(0, 0, 0, 0.205);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section{
@@ -57,15 +66,35 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 1.7rem;
+    font-size: 3.5vw;
 }
 
 footer{
-    background-color: black;
+    background-color: var(--cor-secundaria);
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+section > p{
+    padding-bottom: 2rem;
+}
+
+section#imagem1{
+    background-image: url(imagens/pngwing.com.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fcf5f5;
+}   
+
+section#imagem2{
+    background-image: url(imagens/trabalho-de-programador-de-estilo-de-desenho-animado_52683-22715.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fcf5f5;
 }
